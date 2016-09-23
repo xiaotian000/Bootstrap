@@ -7,42 +7,91 @@
         <script src="http://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     </head>
+    <style>
+        .main-header{
+            background-image:url("dream sky.jpeg");
+            background-repeat:no-repeat;
+        }
+        .main-header h1{
+            font-size:50px;
+            color:white;
+            text-align:center;
+        }
+        .col-sm-12{
+            margin:15px;
+            padding:15px;
+            text-align:center;
+            position:relative;
+        }
+        .menu{
+            list-style-type:none;           
+        }
+        li{
+            display:inline;
+            font-size:18px;          
+        }
+        .menu li a{
+            color: #505050;
+            line-height: 1em;
+            padding: 0 21px;
+            text-decoration:none;
+        }
+        .menu li.nav-current{
+            border-bottom:3px solid #f4645f;
+        }
+        .main-navigation{
+            border:1px solid #a1a1a1;
+            padding:1px 1px;
+            background:white;
+            border-radius:0px;
+            box-shadow:1px 1px 1px #a1a1a1;
+        }
+        a{
+            color:#f4645f;
+            outline:none;
+        }
+    </style>
     <body>
-        <div class="header">
+        <header class="main-header">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1>音乐与璀璨星空</h1>
+                        <h1>音 乐 与 璀 璨 星 空</h1>
                     </div>
                     <div class="col-sm-12">
-                        <a href="#" class="btn btn-default" target="_blank">音乐发展史</a>
-                        <a href="#" class="btn btn-default" target="_blank">乐器</a>
-                        <a href="#" class="btn btn-default" target="_blank">五线谱</a>
-                        <a href="#" class="btn btn-default" target="_blank">音乐电影欣赏</a>
-                        <a href="#" class="btn btn-default" target="_blank">音乐精选</a>
-                        <a href="#" class="btn btn-default" target="_blank">音乐播放器</a>
+                        <a href="#" class="btn btn-default btn-lg" target="_blank">音乐发展史</a>
+                        <a href="#" class="btn btn-default btn-lg" target="_blank">音乐电影欣赏</a>
+                        <a href="#" class="btn btn-default btn-lg" target="_blank">音乐播放器</a>
+                        <a href="#" class="btn btn-default btn-lg" target="_blank">音乐精选</a>
+                        <a href="#" class="btn btn-default btn-lg" target="_blank">乐 器</a>
+                        <a href="#" class="btn btn-default btn-lg" target="_blank">五线谱</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="navigation">
+        </header>
+        <nav class="main-navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="navbar-header" data-toggle="collapse" data-target="#main-menu"></div>
-                        <div class="collapse navabr-collapse" id="main-menu">
+                        <div class="navbar-header">
+                            <span class="nav-toggle-button collapse" data-toggle="collapse" data-target="#main-menu">
+                                <span class="sr-only">Toggle navigation</span>
+                                <i class="fa fa-bars"></i>
+                            </span>
+                        </div>
+                        <div class="collapse navbar-collapse" id="main-menu">
                             <ul class="menu">
-                                <li class="nav-current"><a href="#">首页</a></li>
+                                <li class="nav-current"><a href="#">首 页</a></li>
                                 <li><a href="#" title="音乐馆" target="_blank">音乐馆</a></li>
-                                <li><a href="#" title="精选" target="_blank">精选</a></li>
-                                <li><a href="#" title="歌单" target="_blank">歌单</a></li>
+                                <li><a href="#" title="精选" target="_blank">精 选</a></li>
+                                <li><a href="#" title="歌单" target="_blank">歌 单</a></li>
                                 <li><a href="#" title="新歌发布" target="_blank">新歌发布</a></li>
-                                <li><a href="#" title="专辑" target="_blank">专辑</a></li>
+                                <li><a href="#" title="专辑" target="_blank">专 辑</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </body>
 </html>
