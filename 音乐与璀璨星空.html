@@ -8,6 +8,16 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     </head>
     <style>
+        body{
+            background-color:#E0E0E0;
+        }
+        .post{
+            padding: 35px;
+            background: #ffffff;
+            margin-bottom: 35px;
+            position: relative;
+            overflow: hidden;
+        }
         .main-header{
             background-image:url("dream sky.jpeg");
             background-repeat:no-repeat;
@@ -59,6 +69,61 @@
         .nav-current{
             border-bottom:2px solid #E00000;
         }
+        .content-wrap{
+            margin:10px;
+            padding:10px;
+        }
+        .main-content{
+            margin:10px;
+            padding:15px;
+        }
+        .post-title{
+            margin:20px;
+            padding:10px;
+            text-align:center;
+            font-size:28px;
+        }
+        .post-title a:hover{
+            text-decoration:none;
+            color:#D00000;
+        }
+        .post-meta{
+            font-size:14px;
+            color:#C80000;
+            text-align:center;
+            margin:8px;
+            padding:8px;
+        }
+        .post-meta a:hover{
+            text-decoration:none;
+            color:#383838;
+        }
+        .featured-media img{
+            margin:10px;
+            padding-left:10px;
+            width:660px;
+            height:380px;
+        }
+        .post-content{
+            font-size:18px;
+            margin:10px;
+            padding:10px;
+        }
+        .post-permalink{
+            margin-left:10px;
+        }
+        .btn-default{
+            margin:10px;
+            padding:10px;
+            border: 1px solid #f4645f;
+            background: #f4645f;
+            color: #ffffff;
+        }
+        .post-footer{
+            margin-top:30px;
+            border-top:1px solid #ebebeb;
+            padding:21px 0 0;
+        }
     </style>
     <body>
         <header class="main-header">
@@ -102,5 +167,95 @@
                 </div>
             </div>
         </nav>
+        <section class="content-wrap">
+            <div class="container">
+                <div class="row">
+                    <main class="col-sm-8 main-content">
+                        <article id=70 class="post">
+                            <div class="post-head">
+                                <h1 class="post-title">
+                                    <a href="#">音乐播放器</a>
+                                </h1>
+                                <div class="post-meta">
+                                    <span class="author">播放器:<a href="#"> Amanda </a></span>&bull;
+                                    <time class="post-data" datatime="09/26/2016" title="发布时间">2016年9月26日</time>
+                                </div>
+                                <div class="featured-media">
+                                    <a href="#"><img src="酷狗.jpg" alt="播放器"></a>
+                                </div>
+                                <div class="post-content">
+                                    <p>
+                                        酷狗音乐旗下最新最全的在线正版音乐网站,
+                                        本站为您免费提供最全的在线音乐试听下载,
+                                        以及全球海量电台和MV播放服务、最新音乐播放器下载。
+                                        酷狗音乐 和音乐在一起。
+                                    </p>
+                                </div>
+                                <div class="post-permalink">
+                                    <a href="#" class="btn btn-default">查看播放器</a>
+                                </div>
+                            </div> 
+                            <footer class="post-footer clearfix">
+                                <div class="pull-left tag-list">
+                                    <i class="fa fa-folder-open-o"></i>
+                                </div>
+                                <div class="pull-right share"></div>
+                            </footer> 
+                        </article>
+                        <article id=68 class="post">
+                            <div class="post-head">
+                                <h1 class="post-title">
+                                    <a href="#">我爱音乐</a>
+                                </h1>
+                                    <div class="post-meta">
+                                        <span class="author">专辑:<a href="#"> If You </a></span>&bull;
+                                        <time class="post-date" datetime="09/25/2016" title="Music">
+                                        2016年9月25日</time>
+                                    </div>
+                                    <div class="featured-media">
+                                        <a href="#"><img src="酷狗.jpg"></a>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>
+                                           酷狗音乐旗下最新最全的在线正版音乐网站,
+                                        本站为您免费提供最全的在线音乐试听下载,
+                                        以及全球海量电台和MV播放服务、最新音乐播放器下载。
+                                        酷狗音乐 和音乐在一起。 
+                                        </p>
+                                    </div>
+                                    <div class="post-permalink">
+                                        <a href="#" class="btn btn-default">查看新专辑</a>
+                                    </div>
+                            </div>
+                            <footer class="post-footer clearfix">
+                                <div class="pull-left tag-list">
+                                    <i class="fa fa-folder-open-o"></i>
+                                </div>
+                                <div class="pull-right share"></div>
+                            </footer>
+                        </article>
+                    </main>
+                    <aside class="col-sm-4 sidebar">
+                        <div class="widget">
+                            <h4 class="title"> 下 载 </h4>
+                            <div class="content download">
+                                <a href="#" class="btn btn-default btn-block">
+                                   播放器一键安装包下载
+                                </a>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <h4 class="title"> MV </h4>
+                            <div class="content community">
+                                <p>发现不一样</p>
+                                <p><a href="#" title="MV" target="_blank">
+                                <i class="fa fa-comments"> 关 注 </i>    
+                                </a></p>
+                            </div>
+                        </div>
+                    </aside>                
+                </div>
+            </div>
+        </section>
     </body>
 </html>
