@@ -101,8 +101,6 @@
         .featured-media img{
             margin:10px;
             padding-left:10px;
-            width:660px;
-            height:380px;
         }
         .post-content{
             font-size:18px;
@@ -123,6 +121,35 @@
             margin-top:30px;
             border-top:1px solid #ebebeb;
             padding:21px 0 0;
+        }
+        .sidebar {
+            margin:15px;
+            padding:10px;
+            width: 273px;
+        }
+        .widget{
+            background-color:#ffffff;            
+            padding:21px 30px;
+            margin-bottom:35px;
+        }
+        .title{
+            font-size:20px;
+            border-bottom:1px solid #F0F0F0;
+            margin-bottom:21px;
+            padding-bottom:10px;
+        }
+        .content-community a:hover{
+            text-decoration:none;
+            color:#C80000;
+        }
+        .tag-cloud a{
+            border:1px solid #F00000;
+            padding:2px 8px;
+            color:#F00000;
+            line-height:1.5em;
+            display:inline-block;
+            margin:0 7px 7px 0;
+            text-decoration:none;
         }
     </style>
     <body>
@@ -233,27 +260,44 @@
                                 </div>
                                 <div class="pull-right share"></div>
                             </footer>
-                        </article>
+                        </article>       
                     </main>
-                    <aside class="col-sm-4 sidebar">
-                        <div class="widget">
-                            <h4 class="title"> 下 载 </h4>
-                            <div class="content download">
-                                <a href="#" class="btn btn-default btn-block">
-                                   播放器一键安装包下载
-                                </a>
-                            </div>
-                        </div>
-                        <div class="widget">
-                            <h4 class="title"> MV </h4>
-                            <div class="content community">
-                                <p>发现不一样</p>
-                                <p><a href="#" title="MV" target="_blank">
-                                <i class="fa fa-comments"> 关 注 </i>    
-                                </a></p>
-                            </div>
-                        </div>
-                    </aside>                
+                   <aside class="col-md-4 sidebar">
+<div class="widget">
+	<h4 class="title">专辑</h4>
+	<div class="content-community">
+		<p>QQ群：462694081</p>
+		<p><a href="#" title="最新专辑" target="_blank" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '问答社区'])"><i class="fa fa-comments"></i> 最新发现</a></p>
+	</div>
+</div>
+<div class="widget">
+	<h4 class="title">播放器下载</h4>
+	<div class="content-download">
+		<a href="#" class="btn btn-default" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '下载 Laravel & Lumen'])">安装包一键下载</a>
+	</div>
+</div>
+<div class="widget">
+	<h4 class="title">标签云</h4>
+	<div class="content tag-cloud">
+		<a href="#">首 发</a>
+<a href="#">TFBoys</a>
+<a href="#">寂寞有多长</a>
+<a href="#">新版本发布</a>
+<a href="#">Fight song</a>
+<a href="#">歌 手</a>
+<a href="#">纯音乐</a>
+<a href="#">粤 语</a>
+<a href="#">权志龙</a>
+<a href="#">张 杰</a>
+<a href="#">一念之间</a>
+<a href="#">升 级</a>
+<a href="#">酷 狗</a>
+<a href="#">酷 我</a>
+
+		<a href="/tag-cloud/">...</a>
+	</div>
+</div>
+              </aside>       
                 </div>
             </div>
         </section>
