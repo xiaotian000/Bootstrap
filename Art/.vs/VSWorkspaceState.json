@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\html",
+    "\\images"
   ],
+  "SelectedNode": "\\images\\start_sky.jpg",
   "PreviewInSolutionExplorer": false
 }
