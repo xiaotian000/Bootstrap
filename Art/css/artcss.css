@@ -1,7 +1,11 @@
-﻿.body{
-
+﻿.body {
+   
+}
+.heard {
+    height: 500px;
+    background-image: url(../images/startsky.jpg);
+    background-repeat: no-repeat;
 }
 .navbar-band img{
     height:38px;
-    width:38px;
 }
