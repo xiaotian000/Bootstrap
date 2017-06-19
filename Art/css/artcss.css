@@ -2,9 +2,11 @@
    
 }
 .heard {
-    height: 500px;
+    width:100%;
+    height: 800px;
     background-image: url(../images/startsky.jpg);
     background-repeat: no-repeat;
+    background-size:cover;
 }
 .navbar-band img{
     height:38px;
