@@ -1,11 +1,7 @@
-﻿body
-{
+﻿.body{
 
 }
-.heard {
-    background: url(C:\Users\XiaoT\Documents\github\Bootstrap\Art\images\start_sky.jpg) no-repeat;
-}
-.heard .search .symbol img{
-    width:40px;
-    height:40px;
+.navbar-band img{
+    height:38px;
+    width:38px;
 }
