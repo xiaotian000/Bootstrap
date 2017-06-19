@@ -1,4 +1,5 @@
 ﻿.body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
 }
 .heard {
@@ -8,8 +9,13 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
-.navbar-band img{
-    height:38px;
+.heard-left {
+    position:absolute;
+    margin-right:30px;
+}
+.heard-middle{
+    position:relative;
+    margin-left:200px;
 }
 .navbar-band img.palette-white {
     width: 38px;
@@ -19,4 +25,9 @@
     display: none;
     width: 38px;
     height: 38px;
+}
+.navbar-band span.artpip-logo{
+    font-size:30px;
+    color:#fff;
+    text-decoration:none;
 }
