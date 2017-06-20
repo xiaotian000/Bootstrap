@@ -11,8 +11,14 @@
 }
 .navbar-container{
     float:left;
-    width:100%;
+    width:900px;
     height:60px;
+    margin-left:150px;
+}
+.headed.navbar-container a.navbar-band{
+    position:absolute;
+    width:80px;
+    height:30px;
 }
 .headed-left {
     position: absolute;
@@ -20,7 +26,8 @@
 } 
 .headed-middle {
     position: relative;
-    margin-left: 200px;
+    left: 200px;
+    top:12px;
     }
 .navbar-band img.palette-white {
     width: 38px;
