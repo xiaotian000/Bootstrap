@@ -2,7 +2,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
 }
-.heard {
+.headed {
     width:100%;
     height: 800px;
     background-image: url(../images/startsky.jpg);
@@ -14,11 +14,11 @@
     width:100%;
     height:60px;
 }
-.heard-left {
+.headed-left {
     position: absolute;
     margin-right: 30px;
 } 
-.heard-middle {
+.headed-middle {
     position: relative;
     margin-left: 200px;
     }
@@ -32,7 +32,9 @@
     height: 38px;
 }
 .navbar-band span.artpip-logo{
+    position:relative;
     font-size:30px;
     color:#fff;
     text-decoration:none;
+    top:8px;
 }
