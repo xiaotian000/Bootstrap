@@ -10,10 +10,11 @@
     background-size:cover;
 }
 .navbar-container{
+    position:relative;
     float:left;
     width:900px;
     height:60px;
-    margin-left:150px;
+    left:150px;
 }
 .headed.navbar-container a.navbar-band{
     position:absolute;
@@ -23,11 +24,12 @@
 .headed-left {
     position: absolute;
     margin-right: 30px;
+    top:15px;
 } 
 .headed-middle {
     position: relative;
     left: 200px;
-    top:10px;
+    top:20px;
     }
 .navbar-band img.palette-white {
     width: 38px;
@@ -45,4 +47,11 @@
     color:#fff;
     text-decoration:none;
     top:6px;
+}
+.headed-middle from.search-form input{
+    border:none;
+    border-radius:3px;
+    background-color:#fff;
+    height:35px;
+    cursor:text;
 }
