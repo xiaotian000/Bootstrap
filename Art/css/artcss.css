@@ -27,7 +27,7 @@
 .headed-middle {
     position: relative;
     left: 200px;
-    top:12px;
+    top:10px;
     }
 .navbar-band img.palette-white {
     width: 38px;
@@ -40,8 +40,9 @@
 }
 .navbar-band span.artpip-logo{
     position:relative;
-    font-size:30px;
+    font-size:25px;
+    font-weight:600;
     color:#fff;
     text-decoration:none;
-    top:8px;
+    top:6px;
 }
